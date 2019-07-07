@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+}
+
+body{
+	background: ;
+	font-family: "anton";
+	height:600%;
+	background-color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+
+
+}
+
+.portafolio{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.portafolio h1{
+	text-align: center;
+	font-size: 38px;
+	margin: 15px 0px 40px;
+}
+
+.portafolio-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.portafolio-grupo{
+	width: 3	0%;
+	position: relative;
+	overflow: hidden;
+}
+
+.portafolio-img{
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.portafolio-texto{
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+
+	-webkit-transform: translateY(100%);
+
+	-ms-transform: translateY(100%);
+
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.5s ease-out;
+
+	transition: all 0.5s ease-out;
+}
+
+.portafolio-texto p{
+	text-align: justify;
+}
+
+.portafolio-grupo:hover .portafolio-texto{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.portafolio-grupo:hover .portafolio-img{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+
+
+.juan{
+	background-image: url(img/fondo.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	width: 1260px;
+	height: 650px;
+
+}
+
+h2{
+	color: white;
+	font-family: cursive;
+	color: blue;x	
+}
+
+p{
+	font-family: cursive;
+
+}
+.content-card{
+  width: 30%;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  overflow: hidden;
+  height:600px;
+  color: black;
+  
+  }
+
+  
+  
+h4{
+	font-family: cursive;
+	background-color: white;
+}
+
+.juand{
+	position: absolute;
+	top: 25%;
+	left: 70%;
+	width: 300px;
+}
+
+.jua{
+	background-image: url(img/uf.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	width: 1260px;
+	height: 250px;
+
+}
+
+h1{
+	font-family: cursive;
+
+}
+
+.nh{
+	width: 80px;
+	position: absolute;
+	top: 160%;
+	left: 30%;
+
+}
+.no{
+	width: 80px;
+	position: absolute;
+	top: 160%;
+	left: 50%;
+
+}
+.nu{
+	width: 80px;
+	position: absolute;
+	top: 160%;
+	left: 70%;
+
+}
